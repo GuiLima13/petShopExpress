@@ -1,0 +1,27 @@
+header{
+    background-image: url("../img/logo1.png");
+    background-color:  #00ffff;
+    background-size: contain;
+    background-repeat: no-repeat ;
+    background-position: center;
+    height: 200px;
+}
+
+body{
+    background-color: #cccccc;
+}
+
+section{
+    width: 900px;
+    height: 100vh;
+    background-color: white;
+    margin: 0 auto;
+}
+section div.pet_lista{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    display: inline-block;
+    background-color: #00ffff;
+    text-align: center;
+}

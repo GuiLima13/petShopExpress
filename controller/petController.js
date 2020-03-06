@@ -1,4 +1,4 @@
-const petModel = require("../model/pet");
+const petModel = require("../model/petModel");
 const petController = {
     index: (req,res)=>{
         res.send(petModel.listarPets());
