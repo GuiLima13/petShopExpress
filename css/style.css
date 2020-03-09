@@ -11,11 +11,36 @@ body{
     background-color: #cccccc;
 }
 
-section{
+main{
     width: 900px;
     height: 100vh;
     background-color: white;
     margin: 0 auto;
+}
+nav{
+    margin: 0px 0px 0px 0px;
+    width: 200px;
+    height: 100vh;
+}
+div.opção_menu{
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    background: #00ffff;
+    background-image: url("../img/pata_cao.png");
+    background-size: cover;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+span.texto_menu{
+    margin: 0 auto;
+    font-size: 25px;
+    display: 
+}
+section{
+
 }
 section div.pet_lista{
     width: 100px;
