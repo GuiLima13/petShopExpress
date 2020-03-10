@@ -1,8 +1,14 @@
 const petModel = require("../model/petModel");
+const path = require("path");
 const petController = {
     index: (req,res)=>{
+        /*
         res.send(petModel.listarPets());
-    
+        */
+       res.sendFile(path.join(__dirname, '../HTML', 'index.html'));
+       
+       res.sendFile(path.join(__dirname, '../css', 'style.css'));
+        
     },
     add: (req,res)=>{
         let novoPet = req.params;

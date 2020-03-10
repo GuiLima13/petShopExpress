@@ -1,3 +1,6 @@
+*{
+    margin: 0;
+}
 header{
     background-image: url("../img/logo1.png");
     background-color:  #00ffff;
@@ -22,7 +25,7 @@ nav{
     width: 200px;
     height: 100vh;
 }
-div.opção_menu{
+div.opcao_menu{
     background-color: white;
     width: 100px;
     height: 100px;
@@ -32,15 +35,18 @@ div.opção_menu{
     background-image: url("../img/pata_cao.png");
     background-size: cover;
     margin: 0 auto;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
+}
+div.opcao:hover{
+    background: #ffffff;
+}
+div.group_menu{
+    text-align: center;
 }
 span.texto_menu{
-    margin: 0 auto;
-    font-size: 25px;
-    display: 
-}
-section{
-
+    margin-bottom: 15px;
+    font-size: 15px;
+    display: block;
 }
 section div.pet_lista{
     width: 100px;
